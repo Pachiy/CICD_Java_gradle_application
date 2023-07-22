@@ -31,6 +31,7 @@ pipeline{
                                 docker push  54.173.162.75:8083/springapp:${VERSION}
                                 docker rmi 54.173.162.75/springapp:${VERSION}
                             '''
+                    }
                 }
             }
         }
